@@ -1,9 +1,16 @@
-import './App.css';
+import React from "react";
+import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+import Widgets from "./Widgets";
+import "./App.css";
 
 function App() {
   return (
+    // BEM
     <div className="app">
-      <h1> HEY Let's GO .... twitter-clone </h1>
+      <Sidebar />
+      <Feed />
+      <Widgets />
     </div>
   );
 }
